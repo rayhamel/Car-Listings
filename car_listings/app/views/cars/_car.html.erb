@@ -1,0 +1,28 @@
+<h1><%= "#{car.year} #{car.manufacturer.name}" %></h1>
+
+<h2>Color</h2>
+<div>
+  <%= car.color %>
+</div>
+
+<h2>Country of origin</h2>
+<div>
+  <%= car.manufacturer.country %>
+</div>
+
+<h2>Color</h2>
+<div>
+  <%= car.color %>
+</div>
+
+<h2>Mileage</h2>
+<div>
+  <%= car.mileage %>
+</div>
+
+<% if car.description %>
+  <h2>Description</h2>
+  <div>
+    <%= car.description %>
+  </div>
+<% end %>

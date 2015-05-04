@@ -42,5 +42,6 @@ group :development, :test do
   gem 'launchy'
   gem 'valid_attribute'
   gem 'shoulda-matchers', require: false
+  gem 'pry-rails'
 end
 
